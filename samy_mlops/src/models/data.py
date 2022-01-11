@@ -1,12 +1,12 @@
 import glob
 from pathlib import Path
-
+from os.path import dirname, abspath
 import numpy as np
 import torch
 import torchvision
 from torch.utils.data import DataLoader, TensorDataset
 
-data_path = str(Path().resolve()) + "/data/corruptmnist"
+data_path = dirname(dirname(abspath(__file__))) + "/data/corruptmnist"
 train_data = data_path + "/train/train_merged.npz"
 test_data = data_path + "/test/test.npz"
 
