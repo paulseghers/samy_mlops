@@ -8,8 +8,8 @@ apt clean && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt requirements.txt
 COPY setup.py setup.py
-COPY /src/ /src/
-COPY /data/ /data/
+COPY src/ src/
+COPY data/ data/
 
 WORKDIR /
 RUN pip install -r requirements.txt --no-cache-dir

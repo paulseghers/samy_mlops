@@ -2,6 +2,7 @@ from os.path import abspath, dirname
 
 import torch
 from lightningmodel import MyAwesomeModel
+#from model import MyAwesomeModel
 from torch import nn, optim
 
 from data import mnist
@@ -42,3 +43,5 @@ def train_model():
             model.state_dict(), save_path + "/savedmodels/checkpoints/checkpoint.pth"
         )
     torch.save(model.state_dict(), save_path + "/savedmodels/trainedmodel.pt")
+
+train_model()

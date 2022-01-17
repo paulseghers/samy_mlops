@@ -1,4 +1,5 @@
 click==8.0.3
+hydra-core==1.1.1
 numpy==1.19.5
 python-dotenv==0.19.2
 pytorch_lightning==1.5.8
