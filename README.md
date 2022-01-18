@@ -8,7 +8,7 @@ Alternatively load the conda environment from the file:
 
     conda env create --name mlops --file=environments.yml  
 
-Followed by optionally running the following methods:  
+Followed by optionally running the following methods, if you wish to retrain the model:  
 
     python src/models/main.py train   
 
@@ -16,6 +16,12 @@ Followed by optionally running the following methods:
 
 
 The model is saved in src/models/savedmodels
+
+To run the docker containers, you can build from the following files:
+
+    docker/trainer.dockerfile
+
+    docker/predict.dockerfile
 
 ## LIST
 
