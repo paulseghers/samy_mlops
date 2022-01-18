@@ -1,0 +1,3 @@
+2022-01-18T15:07:00,850 - /127.0.0.1:40476 "PUT /predictions/my-fancy-model HTTP/1.1" 404 47
+2022-01-18T15:07:53,568 - /127.0.0.1:40478 "PUT /predictions/my-fancy-model.mar HTTP/1.1" 404 1
+2022-01-18T15:08:03,565 - /127.0.0.1:40480 "PUT /model_store/my-fancy-model.mar HTTP/1.1" 404 0

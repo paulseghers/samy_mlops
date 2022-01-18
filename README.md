@@ -33,14 +33,15 @@ To run the docker containers, you can build from the following files:
 - [x] DVC with personal google drive
 - [x] DVC with google cloud 
 - [x] Docker local training
-- [x] Docker gcloud
+- [x] Docker gcloud with triggers
 - [x] Hyperparameter config file (hydra)
 - [x] Pytorch lightning
 - [x] Wandb  
 - [x] Cookie-cutter
 - [x] Makefile update 
-- [ ] Torchserve local deployment
+- [x] Torchserve local deployment
 - [ ] Torchserve remote deployment
+
 
 Wandb loss chart: ![Wandb loss chart](https://github.com/samytessier/samy_mlops/blob/master/reports/figures/wandb.png?raw=true)
 

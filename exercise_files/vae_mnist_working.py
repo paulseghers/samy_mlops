@@ -4,14 +4,13 @@ https://github.com/Jackson-Kang/Pytorch-VAE-tutorial/blob/master/01_Variational_
 
 A simple implementation of Gaussian MLP Encoder and Decoder trained on MNIST
 """
+import hydra
 import torch
 import torch.nn as nn
 import torchvision.transforms as transforms
 from torch.utils.data import DataLoader
 from torchvision.datasets import MNIST
 from torchvision.utils import save_image
-import hydra
-
 
 # Model Hyperparameters
 dataset_path = "datasets"
@@ -22,7 +21,6 @@ DEVICE = torch.device("cuda" if cuda else "cpu")
 @hydra.main(config_name="config.yaml")
 def main(cfg):
     print(cfg.hyperparameters.batch_size, cfg.hyperparameters.learning_rate)
-
 
 
 # Data loading

@@ -201,3 +201,261 @@ org.pytorch.serve.archive.model.ModelNotFoundException: Model not found at: my_f
 2022-01-18T14:24:51,057 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:10485.45703125|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512291
 2022-01-18T14:24:51,059 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1503.796875|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512291
 2022-01-18T14:24:51,061 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:17.1|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512291
+2022-01-18T14:25:50,959 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512350
+2022-01-18T14:25:50,960 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:217.86568069458008|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512350
+2022-01-18T14:25:50,961 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:20.30118179321289|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512350
+2022-01-18T14:25:50,962 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:8.5|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512350
+2022-01-18T14:25:50,963 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:10478.19921875|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512350
+2022-01-18T14:25:50,964 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:1511.00390625|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512350
+2022-01-18T14:25:50,965 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:17.1|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512350
+2022-01-18T14:26:50,923 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512410
+2022-01-18T14:26:50,924 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:217.86568069458008|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512410
+2022-01-18T14:26:50,925 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:20.30118179321289|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512410
+2022-01-18T14:26:50,926 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:8.5|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512410
+2022-01-18T14:26:50,927 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:10483.66796875|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512410
+2022-01-18T14:26:50,928 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:1505.55078125|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512410
+2022-01-18T14:26:50,929 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:17.1|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512410
+2022-01-18T14:27:51,009 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512471
+2022-01-18T14:27:51,011 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:217.86568069458008|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512471
+2022-01-18T14:27:51,013 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:20.30118179321289|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512471
+2022-01-18T14:27:51,015 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:8.5|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512471
+2022-01-18T14:27:51,017 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:10482.34765625|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512471
+2022-01-18T14:27:51,018 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1506.83203125|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512471
+2022-01-18T14:27:51,020 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:17.1|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512471
+2022-01-18T14:28:51,061 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512531
+2022-01-18T14:28:51,063 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:217.8656768798828|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512531
+2022-01-18T14:28:51,064 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:20.301185607910156|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512531
+2022-01-18T14:28:51,066 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:8.5|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512531
+2022-01-18T14:28:51,068 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:10480.10546875|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512531
+2022-01-18T14:28:51,069 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:1509.12890625|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512531
+2022-01-18T14:28:51,071 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:17.1|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512531
+2022-01-18T14:29:50,963 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512590
+2022-01-18T14:29:50,965 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:217.8656768798828|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512590
+2022-01-18T14:29:50,967 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:20.301185607910156|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512590
+2022-01-18T14:29:50,968 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:8.5|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512590
+2022-01-18T14:29:50,970 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:10478.89453125|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512590
+2022-01-18T14:29:50,971 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1510.3359375|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512590
+2022-01-18T14:29:50,973 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:17.1|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512590
+2022-01-18T14:30:51,044 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512651
+2022-01-18T14:30:51,045 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:217.8656768798828|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512651
+2022-01-18T14:30:51,047 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:20.301185607910156|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512651
+2022-01-18T14:30:51,048 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:8.5|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512651
+2022-01-18T14:30:51,049 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:10470.421875|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512651
+2022-01-18T14:30:51,051 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1518.76953125|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512651
+2022-01-18T14:30:51,052 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:17.2|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512651
+2022-01-18T14:31:50,959 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512710
+2022-01-18T14:31:50,961 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:217.8656768798828|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512710
+2022-01-18T14:31:50,962 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:20.301185607910156|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512710
+2022-01-18T14:31:50,964 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:8.5|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512710
+2022-01-18T14:31:50,965 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:10477.234375|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512710
+2022-01-18T14:31:50,966 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1511.98828125|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512710
+2022-01-18T14:31:50,968 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:17.1|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512710
+2022-01-18T14:32:50,955 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512770
+2022-01-18T14:32:50,957 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:217.8656768798828|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512770
+2022-01-18T14:32:50,958 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:20.301185607910156|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512770
+2022-01-18T14:32:50,959 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:8.5|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512770
+2022-01-18T14:32:50,961 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:10476.62109375|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512770
+2022-01-18T14:32:50,962 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1512.60546875|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512770
+2022-01-18T14:32:50,964 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:17.1|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512770
+2022-01-18T14:33:50,958 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512830
+2022-01-18T14:33:50,961 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:217.8656768798828|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512830
+2022-01-18T14:33:50,963 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:20.301185607910156|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512830
+2022-01-18T14:33:50,964 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:8.5|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512830
+2022-01-18T14:33:50,966 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:10471.0546875|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512830
+2022-01-18T14:33:50,967 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1518.13671875|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512830
+2022-01-18T14:33:50,969 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:17.2|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512830
+2022-01-18T14:34:50,949 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512890
+2022-01-18T14:34:50,950 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:217.8656768798828|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512890
+2022-01-18T14:34:50,952 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:20.301185607910156|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512890
+2022-01-18T14:34:50,953 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:8.5|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512890
+2022-01-18T14:34:50,954 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:10472.3515625|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512890
+2022-01-18T14:34:50,955 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:1516.8828125|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512890
+2022-01-18T14:34:50,956 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:17.2|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512890
+2022-01-18T14:35:50,922 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512950
+2022-01-18T14:35:50,924 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:217.8656768798828|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512950
+2022-01-18T14:35:50,926 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:20.301185607910156|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512950
+2022-01-18T14:35:50,927 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:8.5|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512950
+2022-01-18T14:35:50,928 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:10472.26171875|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512950
+2022-01-18T14:35:50,929 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:1516.92578125|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512950
+2022-01-18T14:35:50,931 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:17.2|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642512950
+2022-01-18T14:36:50,898 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642513010
+2022-01-18T14:36:50,899 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:217.8656768798828|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642513010
+2022-01-18T14:36:50,900 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:20.301185607910156|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642513010
+2022-01-18T14:36:50,901 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:8.5|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642513010
+2022-01-18T14:36:50,901 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:10472.7109375|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642513010
+2022-01-18T14:36:50,902 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:1516.5078125|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642513010
+2022-01-18T14:36:50,903 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:17.2|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642513010
+2022-01-18T14:55:53,553 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514153
+2022-01-18T14:55:53,554 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:217.8656768798828|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514153
+2022-01-18T14:55:53,555 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:20.301185607910156|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514153
+2022-01-18T14:55:53,555 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:8.5|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514153
+2022-01-18T14:55:53,555 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:10475.296875|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514153
+2022-01-18T14:55:53,556 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1513.91796875|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514153
+2022-01-18T14:55:53,556 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:17.2|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514153
+2022-01-18T14:56:49,515 [INFO ] epollEventLoopGroup-3-1 ACCESS_LOG - /127.0.0.1:40450 "PUT /predictions/my_fancy_model HTTP/1.1" 404 19
+2022-01-18T14:56:49,516 [INFO ] epollEventLoopGroup-3-1 TS_METRICS - Requests4XX.Count:1|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:null
+2022-01-18T14:56:53,551 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514213
+2022-01-18T14:56:53,552 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:217.8656768798828|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514213
+2022-01-18T14:56:53,552 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:20.301185607910156|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514213
+2022-01-18T14:56:53,553 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:8.5|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514213
+2022-01-18T14:56:53,554 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:10447.69921875|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514213
+2022-01-18T14:56:53,554 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:1541.4921875|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514213
+2022-01-18T14:56:53,555 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:17.4|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514213
+2022-01-18T14:57:21,983 [INFO ] epollEventLoopGroup-3-2 ACCESS_LOG - /127.0.0.1:40452 "PUT /predictions/my_fancy_model HTTP/1.1" 404 1
+2022-01-18T14:57:21,987 [INFO ] epollEventLoopGroup-3-2 TS_METRICS - Requests4XX.Count:1|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:null
+2022-01-18T14:57:53,626 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514273
+2022-01-18T14:57:53,627 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:217.8656768798828|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514273
+2022-01-18T14:57:53,629 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:20.301185607910156|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514273
+2022-01-18T14:57:53,631 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:8.5|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514273
+2022-01-18T14:57:53,632 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:10429.6484375|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514273
+2022-01-18T14:57:53,634 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:1559.5234375|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514273
+2022-01-18T14:57:53,635 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:17.5|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514273
+2022-01-18T14:58:53,633 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514333
+2022-01-18T14:58:53,635 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:217.8656768798828|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514333
+2022-01-18T14:58:53,636 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:20.301185607910156|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514333
+2022-01-18T14:58:53,638 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:8.5|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514333
+2022-01-18T14:58:53,640 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:10428.76171875|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514333
+2022-01-18T14:58:53,641 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:1560.41015625|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514333
+2022-01-18T14:58:53,643 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:17.5|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514333
+2022-01-18T14:59:53,663 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514393
+2022-01-18T14:59:53,665 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:217.86567306518555|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514393
+2022-01-18T14:59:53,666 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:20.301189422607422|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514393
+2022-01-18T14:59:53,668 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:8.5|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514393
+2022-01-18T14:59:53,670 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:10428.8125|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514393
+2022-01-18T14:59:53,671 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:1560.35546875|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514393
+2022-01-18T14:59:53,673 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:17.5|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514393
+2022-01-18T15:00:59,984 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager - Initializing plugins manager...
+2022-01-18T15:00:59,984 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager - Initializing plugins manager...
+2022-01-18T15:01:00,308 [INFO ] main org.pytorch.serve.ModelServer - 
+Torchserve version: 0.5.2
+TS Home: /home/samy/anaconda3/envs/mlops/lib/python3.8/site-packages
+Current directory: /mnt/c/Users/samy/OneDrive - Danmarks Tekniske Universitet/Current courses/MLOps/samy_mlops/model_store
+Temp directory: /tmp
+Number of GPUs: 0
+Number of CPUs: 8
+Max heap size: 3162 M
+Python executable: /home/samy/anaconda3/envs/mlops/bin/python3
+Config file: N/A
+Inference address: http://127.0.0.1:8080
+Management address: http://127.0.0.1:8081
+Metrics address: http://127.0.0.1:8082
+Model Store: /mnt/c/Users/samy/OneDrive - Danmarks Tekniske Universitet/Current courses/MLOps/samy_mlops/model_store
+Initial Models: my_fancy_model=my_fancy_model.mar
+Log dir: /mnt/c/Users/samy/OneDrive - Danmarks Tekniske Universitet/Current courses/MLOps/samy_mlops/model_store/logs
+Metrics dir: /mnt/c/Users/samy/OneDrive - Danmarks Tekniske Universitet/Current courses/MLOps/samy_mlops/model_store/logs
+Netty threads: 0
+Netty client threads: 0
+Default workers per model: 8
+Blacklist Regex: N/A
+Maximum Response Size: 6553500
+Maximum Request Size: 6553500
+Limit Maximum Image Pixels: true
+Prefer direct buffer: false
+Allowed Urls: [file://.*|http(s)?://.*]
+Custom python dependency for model allowed: false
+Metrics report format: prometheus
+Enable metrics API: true
+Workflow Store: /mnt/c/Users/samy/OneDrive - Danmarks Tekniske Universitet/Current courses/MLOps/samy_mlops/model_store
+Model config: N/A
+2022-01-18T15:01:00,308 [INFO ] main org.pytorch.serve.ModelServer - 
+Torchserve version: 0.5.2
+TS Home: /home/samy/anaconda3/envs/mlops/lib/python3.8/site-packages
+Current directory: /mnt/c/Users/samy/OneDrive - Danmarks Tekniske Universitet/Current courses/MLOps/samy_mlops/model_store
+Temp directory: /tmp
+Number of GPUs: 0
+Number of CPUs: 8
+Max heap size: 3162 M
+Python executable: /home/samy/anaconda3/envs/mlops/bin/python3
+Config file: N/A
+Inference address: http://127.0.0.1:8080
+Management address: http://127.0.0.1:8081
+Metrics address: http://127.0.0.1:8082
+Model Store: /mnt/c/Users/samy/OneDrive - Danmarks Tekniske Universitet/Current courses/MLOps/samy_mlops/model_store
+Initial Models: my_fancy_model=my_fancy_model.mar
+Log dir: /mnt/c/Users/samy/OneDrive - Danmarks Tekniske Universitet/Current courses/MLOps/samy_mlops/model_store/logs
+Metrics dir: /mnt/c/Users/samy/OneDrive - Danmarks Tekniske Universitet/Current courses/MLOps/samy_mlops/model_store/logs
+Netty threads: 0
+Netty client threads: 0
+Default workers per model: 8
+Blacklist Regex: N/A
+Maximum Response Size: 6553500
+Maximum Request Size: 6553500
+Limit Maximum Image Pixels: true
+Prefer direct buffer: false
+Allowed Urls: [file://.*|http(s)?://.*]
+Custom python dependency for model allowed: false
+Metrics report format: prometheus
+Enable metrics API: true
+Workflow Store: /mnt/c/Users/samy/OneDrive - Danmarks Tekniske Universitet/Current courses/MLOps/samy_mlops/model_store
+Model config: N/A
+2022-01-18T15:01:00,362 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager -  Loading snapshot serializer plugin...
+2022-01-18T15:01:00,362 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager -  Loading snapshot serializer plugin...
+2022-01-18T15:01:00,588 [INFO ] main org.pytorch.serve.ModelServer - Loading initial models: my_fancy_model.mar
+2022-01-18T15:01:00,588 [INFO ] main org.pytorch.serve.ModelServer - Loading initial models: my_fancy_model.mar
+2022-01-18T15:01:00,600 [WARN ] main org.pytorch.serve.ModelServer - Failed to load model: my_fancy_model.mar
+org.pytorch.serve.archive.model.ModelNotFoundException: Model not found at: my_fancy_model.mar
+	at org.pytorch.serve.archive.model.ModelArchive.downloadModel(ModelArchive.java:75) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.ModelManager.createModelArchive(ModelManager.java:167) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.ModelManager.registerModel(ModelManager.java:133) ~[model-server.jar:?]
+	at org.pytorch.serve.ModelServer.initModelStore(ModelServer.java:242) [model-server.jar:?]
+	at org.pytorch.serve.ModelServer.startRESTserver(ModelServer.java:356) [model-server.jar:?]
+	at org.pytorch.serve.ModelServer.startAndWait(ModelServer.java:117) [model-server.jar:?]
+	at org.pytorch.serve.ModelServer.main(ModelServer.java:98) [model-server.jar:?]
+2022-01-18T15:01:00,600 [WARN ] main org.pytorch.serve.ModelServer - Failed to load model: my_fancy_model.mar
+org.pytorch.serve.archive.model.ModelNotFoundException: Model not found at: my_fancy_model.mar
+	at org.pytorch.serve.archive.model.ModelArchive.downloadModel(ModelArchive.java:75) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.ModelManager.createModelArchive(ModelManager.java:167) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.ModelManager.registerModel(ModelManager.java:133) ~[model-server.jar:?]
+	at org.pytorch.serve.ModelServer.initModelStore(ModelServer.java:242) [model-server.jar:?]
+	at org.pytorch.serve.ModelServer.startRESTserver(ModelServer.java:356) [model-server.jar:?]
+	at org.pytorch.serve.ModelServer.startAndWait(ModelServer.java:117) [model-server.jar:?]
+	at org.pytorch.serve.ModelServer.main(ModelServer.java:98) [model-server.jar:?]
+2022-01-18T15:01:00,644 [INFO ] main org.pytorch.serve.ModelServer - Initialize Inference server with: EpollServerSocketChannel.
+2022-01-18T15:01:00,644 [INFO ] main org.pytorch.serve.ModelServer - Initialize Inference server with: EpollServerSocketChannel.
+2022-01-18T15:01:00,939 [INFO ] main org.pytorch.serve.ModelServer - Inference API bind to: http://127.0.0.1:8080
+2022-01-18T15:01:00,939 [INFO ] main org.pytorch.serve.ModelServer - Inference API bind to: http://127.0.0.1:8080
+2022-01-18T15:01:00,942 [INFO ] main org.pytorch.serve.ModelServer - Initialize Management server with: EpollServerSocketChannel.
+2022-01-18T15:01:00,942 [INFO ] main org.pytorch.serve.ModelServer - Initialize Management server with: EpollServerSocketChannel.
+2022-01-18T15:01:00,949 [INFO ] main org.pytorch.serve.ModelServer - Management API bind to: http://127.0.0.1:8081
+2022-01-18T15:01:00,949 [INFO ] main org.pytorch.serve.ModelServer - Management API bind to: http://127.0.0.1:8081
+2022-01-18T15:01:00,952 [INFO ] main org.pytorch.serve.ModelServer - Initialize Metrics server with: EpollServerSocketChannel.
+2022-01-18T15:01:00,952 [INFO ] main org.pytorch.serve.ModelServer - Initialize Metrics server with: EpollServerSocketChannel.
+2022-01-18T15:01:00,957 [INFO ] main org.pytorch.serve.ModelServer - Metrics API bind to: http://127.0.0.1:8082
+2022-01-18T15:01:00,957 [INFO ] main org.pytorch.serve.ModelServer - Metrics API bind to: http://127.0.0.1:8082
+2022-01-18T15:01:01,967 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514461
+2022-01-18T15:01:01,972 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:217.86567306518555|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514461
+2022-01-18T15:01:01,974 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:20.301189422607422|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514461
+2022-01-18T15:01:01,977 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:8.5|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514461
+2022-01-18T15:01:01,980 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:10504.9296875|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514461
+2022-01-18T15:01:01,984 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1484.27734375|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514461
+2022-01-18T15:01:01,986 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:16.9|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514461
+2022-01-18T15:02:02,000 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514521
+2022-01-18T15:02:02,002 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:217.86567306518555|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514521
+2022-01-18T15:02:02,005 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:20.301189422607422|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514522
+2022-01-18T15:02:02,007 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:8.5|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514522
+2022-01-18T15:02:02,010 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:10504.03515625|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514522
+2022-01-18T15:02:02,012 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1485.140625|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514522
+2022-01-18T15:02:02,014 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:16.9|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514522
+2022-01-18T15:03:01,985 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514581
+2022-01-18T15:03:01,988 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:217.86567306518555|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514581
+2022-01-18T15:03:01,990 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:20.301189422607422|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514581
+2022-01-18T15:03:01,993 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:8.5|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514581
+2022-01-18T15:03:01,995 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:10503.77734375|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514581
+2022-01-18T15:03:01,997 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1485.37109375|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514581
+2022-01-18T15:03:01,999 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:16.9|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514581
+2022-01-18T15:04:02,031 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514642
+2022-01-18T15:04:02,036 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:217.86566543579102|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514642
+2022-01-18T15:04:02,039 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:20.301197052001953|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514642
+2022-01-18T15:04:02,041 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:8.5|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514642
+2022-01-18T15:04:02,044 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:10501.015625|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514642
+2022-01-18T15:04:02,046 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:1488.125|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514642
+2022-01-18T15:04:02,048 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:17.0|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514642
+2022-01-18T15:04:38,199 [INFO ] epollEventLoopGroup-3-1 ACCESS_LOG - /127.0.0.1:40466 "PUT /predictions/my_fancy_model HTTP/1.1" 404 100
+2022-01-18T15:04:38,203 [INFO ] epollEventLoopGroup-3-1 TS_METRICS - Requests4XX.Count:1|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:null
+2022-01-18T15:05:02,089 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514702
+2022-01-18T15:05:02,092 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:217.86566543579102|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514702
+2022-01-18T15:05:02,094 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:20.301197052001953|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514702
+2022-01-18T15:05:02,096 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:8.5|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514702
+2022-01-18T15:05:02,098 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:10473.46875|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514702
+2022-01-18T15:05:02,099 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:1515.69140625|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514702
+2022-01-18T15:05:02,101 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:17.2|#Level:Host|#hostname:LAPTOP-I681OQIJ,timestamp:1642514702

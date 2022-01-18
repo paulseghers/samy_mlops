@@ -44,9 +44,9 @@ def normalize_texts(texts):
 
 def amzreview_dataset() -> (DataLoader, DataLoader):
     """
-    reads files from /data/raw with appropriate method 
+    reads files from /data/raw with appropriate method
     applies normalization and tokenization
-    merges processed texts with their labels into 
+    merges processed texts with their labels into
     torch.utils.data DataLoader object for train and test sets
     """
 

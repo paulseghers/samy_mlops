@@ -27,4 +27,5 @@ def predict_model():
     accuracy = torch.mean(equals.type(torch.FloatTensor))
     print(f"Accuracy: {accuracy.item()*100}%")
 
+
 predict_model()
