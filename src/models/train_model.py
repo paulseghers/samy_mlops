@@ -9,9 +9,12 @@ from data import mnist
 
 save_path = dirname(abspath(__file__))
 
+import wandb
+wandb.init(project="mnist-personal", entity="samytess")
+model = MyAwesomeModel()
+
 
 def train_model():
-    model = MyAwesomeModel()
     train_set, _ = mnist()
     train_images = torch.tensor(train_set["images"]).view(5000, 1, 28, 28)
     train_labels = torch.tensor(train_set["labels"])
@@ -34,7 +37,7 @@ def train_model():
             loss = criterion(log_ps, labels)
             loss.backward()
             optimizer.step()
-
+            wandb.log({"loss": loss})
             running_loss += loss.item()
         else:
             ## TODO: Implement the validation pass and print out the validation accuracy
