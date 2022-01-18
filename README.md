@@ -37,127 +37,128 @@ The model is saved in src/models/savedmodels
 - [ ] Torchserve remote deployment
 
 Wandb loss chart: ![Wandb loss chart](https://github.com/samytessier/samy_mlops/blob/master/reports/figures/wandb.png?raw=true)
-.
-├── LICENSE
-├── Makefile
-├── README.md
-├── basic.yaml
-├── data
-│   ├── external
-│   ├── interim
-│   ├── make_dataset.py
-│   ├── mnist_loader.py
-│   ├── processed
-│   └── raw
-│       ├── corruptmnist
-│       │   ├── test.npz
-│       │   ├── train_0.npz
-│       │   ├── train_1.npz
-│       │   ├── train_2.npz
-│       │   ├── train_3.npz
-│       │   └── train_4.npz
-│       └── corruptmnist_v2
-│           ├── train_5.npz
-│           ├── train_6.npz
-│           └── train_7.npz
-├── data.dvc
-├── datasets
-│   └── MNIST
-│       └── raw
-│           ├── t10k-images-idx3-ubyte
-│           ├── t10k-images-idx3-ubyte.gz
-│           ├── t10k-labels-idx1-ubyte
-│           ├── t10k-labels-idx1-ubyte.gz
-│           ├── train-images-idx3-ubyte
-│           ├── train-images-idx3-ubyte.gz
-│           ├── train-labels-idx1-ubyte
-│           └── train-labels-idx1-ubyte.gz
-├── docs
-│   ├── Makefile
-│   ├── commands.rst
-│   ├── conf.py
-│   ├── getting-started.rst
-│   ├── index.rst
-│   └── make.bat
-├── environments.yml
-├── exercise_files
-│   ├── config.yaml
-│   ├── typing_exercise.py
-│   ├── typing_exercise_solution.py
-│   ├── vae_mnist_bugs.py
-│   ├── vae_mnist_pytorch_profiler.py
-│   └── vae_mnist_working.py
-├── logs
-│   ├── access_log.log
-│   ├── config
-│   │   └── 20220117125532782-startup.cfg
-│   ├── model_log.log
-│   ├── model_metrics.log
-│   ├── ts_log.17-Jan.log.gz
-│   ├── ts_log.log
-│   ├── ts_metrics.17-Jan.log.gz
-│   └── ts_metrics.log
-├── model_store
-│   └── deployable_model.pt
-├── notebooks
-├── predict.dockerfile
-├── references
-├── reports
-│   └── figures
-│       └── wandb.png
-├── requirements.txt
-├── setup.py
-├── src
-│   ├── __init__.py
-│   ├── data
-│   │   ├── __init__.py
-│   │   ├── corruptmnist
-│   │   │   ├── test
-│   │   │   │   └── test.npz
-│   │   │   └── train
-│   │   │       ├── train_0.npz
-│   │   │       ├── train_1.npz
-│   │   │       ├── train_2.npz
-│   │   │       ├── train_3.npz
-│   │   │       ├── train_4.npz
-│   │   │       └── train_merged.npz
-│   │   ├── load_bz2_nlpdata.py
-│   │   └── make_dataset.py
-│   ├── data.dvc
-│   ├── features
-│   │   ├── __init__.py
-│   │   └── build_features.py
-│   ├── models
-│   │   ├── __init__.py
-│   │   ├── __pycache__
-│   │   │   ├── data.cpython-38.pyc
-│   │   │   ├── lightningmodel.cpython-38.pyc
-│   │   │   ├── model.cpython-38.pyc
-│   │   │   ├── predict_model.cpython-38.pyc
-│   │   │   └── train_model.cpython-38.pyc
-│   │   ├── data.py
-│   │   ├── lightningmodel.py
-│   │   ├── main.py
-│   │   ├── model.py
-│   │   ├── predict_model.py
-│   │   ├── savedmodels
-│   │   │   ├── checkpoints
-│   │   │   │   └── checkpoint.pth
-│   │   │   └── trainedmodel.pt
-│   │   ├── train_model.py
-│   │   ├── trainer.py
-│   │   └── visualize.py
-│   ├── tests
-│   │   ├── __init__.py
-│   │   └── test_data.py
-│   └── visualization
-│       ├── __init__.py
-│       └── visualize.py
-├── test_environment.py
-├── tox.ini
-├── trainer.dockerfile
-├── tree.txt
-└── wandb
-    ├── debug.log -> run-20220118_131734-1h55g57m/logs/debug.log
 
 
+. <br>
+├── LICENSE <br>
+├── Makefile <br>
+├── README.md <br>
+├── basic.yaml <br>
+├── data <br>
+│   ├── external <br>
+│   ├── interim <br>
+│   ├── make_dataset.py <br>
+│   ├── mnist_loader.py <br>
+│   ├── processed <br>
+│   └── raw <br>
+│       ├── corruptmnist <br>
+│       │   ├── test.npz <br>
+│       │   ├── train_0.npz <br>
+│       │   ├── train_1.npz <br>
+│       │   ├── train_2.npz <br>
+│       │   ├── train_3.npz <br>
+│       │   └── train_4.npz <br>
+│       └── corruptmnist_v2 <br>
+│           ├── train_5.npz <br>
+│           ├── train_6.npz <br>
+│           └── train_7.npz <br>
+├── data.dvc <br>
+├── datasets <br>
+│   └── MNIST <br>
+│       └── raw <br>
+│           ├── t10k-images-idx3-ubyte <br>
+│           ├── t10k-images-idx3-ubyte.gz <br>
+│           ├── t10k-labels-idx1-ubyte <br>
+│           ├── t10k-labels-idx1-ubyte.gz <br>
+│           ├── train-images-idx3-ubyte <br>
+│           ├── train-images-idx3-ubyte.gz <br>
+│           ├── train-labels-idx1-ubyte <br>
+│           └── train-labels-idx1-ubyte.gz <br>
+├── docs <br>
+│   ├── Makefile <br>
+│   ├── commands.rst <br>
+│   ├── conf.py <br>
+│   ├── getting-started.rst <br>
+│   ├── index.rst <br>
+│   └── make.bat <br>
+├── environments.yml <br>
+├── exercise_files <br>
+│   ├── config.yaml <br>
+│   ├── typing_exercise.py <br>
+│   ├── typing_exercise_solution.py <br>
+│   ├── vae_mnist_bugs.py <br>
+│   ├── vae_mnist_pytorch_profiler.py <br>
+│   └── vae_mnist_working.py <br>
+├── logs <br>
+│   ├── access_log.log <br>
+│   ├── config <br>
+│   │   └── 20220117125532782-startup.cfg <br>
+│   ├── model_log.log <br>
+│   ├── model_metrics.log <br>
+│   ├── ts_log.17-Jan.log.gz <br>
+│   ├── ts_log.log <br>
+│   ├── ts_metrics.17-Jan.log.gz <br>
+│   └── ts_metrics.log <br>
+├── model_store <br>
+│   └── deployable_model.pt <br>
+├── notebooks <br>
+├── predict.dockerfile <br>
+├── references <br>
+├── reports <br>
+│   └── figures <br>
+│       └── wandb.png <br>
+├── requirements.txt <br>
+├── setup.py <br>
+├── src <br>
+│   ├── __init__.py <br>
+│   ├── data <br>
+│   │   ├── __init__.py <br>
+│   │   ├── corruptmnist <br>
+│   │   │   ├── test <br>
+│   │   │   │   └── test.npz <br>
+│   │   │   └── train <br>
+│   │   │       ├── train_0.npz <br>
+│   │   │       ├── train_1.npz <br>
+│   │   │       ├── train_2.npz <br>
+│   │   │       ├── train_3.npz <br>
+│   │   │       ├── train_4.npz <br>
+│   │   │       └── train_merged.npz <br>
+│   │   ├── load_bz2_nlpdata.py <br>
+│   │   └── make_dataset.py <br>
+│   ├── data.dvc <br>
+│   ├── features <br>
+│   │   ├── __init__.py <br>
+│   │   └── build_features.py <br>
+│   ├── models <br>
+│   │   ├── __init__.py <br>
+│   │   ├── __pycache__ <br>
+│   │   │   ├── data.cpython-38.pyc <br>
+│   │   │   ├── lightningmodel.cpython-38.pyc <br>
+│   │   │   ├── model.cpython-38.pyc <br>
+│   │   │   ├── predict_model.cpython-38.pyc <br>
+│   │   │   └── train_model.cpython-38.pyc <br>
+│   │   ├── data.py <br>
+│   │   ├── lightningmodel.py <br>
+│   │   ├── main.py <br>
+│   │   ├── model.py <br>
+│   │   ├── predict_model.py <br>
+│   │   ├── savedmodels <br>
+│   │   │   ├── checkpoints <br>
+│   │   │   │   └── checkpoint.pth <br>
+│   │   │   └── trainedmodel.pt <br>
+│   │   ├── train_model.py <br>
+│   │   ├── trainer.py <br>
+│   │   └── visualize.py <br>
+│   ├── tests <br>
+│   │   ├── __init__.py <br>
+│   │   └── test_data.py <br>
+│   └── visualization <br>
+│       ├── __init__.py <br>
+│       └── visualize.py <br>
+├── test_environment.py <br>
+├── tox.ini <br>
+├── trainer.dockerfile <br>
+├── tree.txt <br>
+└── wandb <br>
+    ├── debug.log -> run-20220118_131734-1h55g57m/logs/debug.log <br>
+    
